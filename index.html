@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .form{
+            width: 100%;
+            background-color: aqua;
+            padding: 15px;
+            height: 700px;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        input{
+            margin-right: 20px;
+        }
+
+        .emocional{
+            background-color: white;
+            width: 300px;
+            padding: 9px;
+            margin-left: 500px;
+            border-radius: 4px;
+            
+            
+        }
+    </style>
+</head>
+<body>
+
+
+
+
+        <form name="Formulario" class="form" data-netlify="true">
+            <h1>FORMULARIO DE DIFERENTES PREGUNTAS</h1>
+           <div class="emocional">
+             ¿Cual es tu estado emocional?<br><br>
+             <input type="radio" name="colores">feliz<br>
+             <input type="radio"name="colores">triste<br>
+             <input type="radio"name="colores">cansado<br>
+             <input type="radio" name="colores">no mas tarea<br>
+           </div>
+        
+    
+      
+           <div class="emocional">
+             ¿Cual es tu serie favorita?<br><br>
+             <input type="checkbox"name="colores">Breaking Bad<br>
+             <input type="checkbox"name="colores">Sandman<br>
+             <input type="checkbox"name="colores">Academia Umbrella<br>
+             <input type="checkbox"name="colores">Lucifer<br>
+           </div>
+        
+    
+        
+            <div class="emocional">
+              ¿Que tanto te gustan las siguientes comidas?<br><br>
+              <input type="range"name="colores">Tacos<br>
+              <input type="range"name="colores">Pupusas<br>
+              <input type="range"name="colores">Pizza<br>
+              <input type="range"name="colores">hamburgesa <br>
+            </div>
+         
+    
+        
+            <div class="emocional">
+              ¿Cual es tu genero?<br><br>
+              <input list="lista" name="colores">
+                <datalist id="lista">
+                    <option value="Hombre">
+                     <option value="Mujer">
+                    <option value="Helicóptero Apache">
+                    <option value="Otro">
+                       
+                </details>
+                
+            </div>
+
+           <div class="emocional">
+             <input type="submit" value="Submit">     
+           </div>       
+
+         </form>
+
+         
+</body>
+</html>
